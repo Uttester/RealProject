@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="R09" parallel="false">
+  <test name="run on FireFox">
+    <classes>
+      <class name="com.r09.login.Level_03_Page_Object"/>
+      <class name="com.r09.login.Level_03_Page_Object_Pratice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

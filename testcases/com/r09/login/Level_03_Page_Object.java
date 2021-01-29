@@ -55,10 +55,10 @@ public class Level_03_Page_Object extends AbtractPage {
 		selectItemInDropdown(driver, "//select[@name='gender_id']", "女");
 		sendkeyToElement(driver, "//input[@name='date_of_birth']", "1991-02-11");
 		WebElement fileInput = driver.findElement(By.xpath("//input[@id='avatar_upload']"));
-		String fileUpload = "D:\\Auto test\\02-selenium API\\uploadFile\\2mb.jpg";
+		String fileUpload = "D:\\Auto test\\02-Selenium-API\\uploadFile\\2mb.jpg";
 		fileInput.sendKeys(fileUpload);
 		// sendkeyToElement(driver, "//input[@id='avatar_upload']", fileUpload);
-		String filePdf = "D:\\Auto test\\02-selenium API\\uploadFile\\201210_グエン　テイ　ウット御中_3月請求書.pdf";
+		String filePdf = "D:\\Auto test\\02-Selenium-API\\uploadFile\\201210_グエン　テイ　ウット御中_3月請求書.pdf";
 		sendkeyToElement(driver, "//input[@name='first_resume_file']", filePdf);
 		sendkeyToElement(driver, "//input[@name='emergency_email']", email);
 		sendkeyToElement(driver, "//input[@name='phone_number']", "0988587623");
